@@ -5,7 +5,7 @@ var mongodb = require('mongodb')
 
 var app = express()
 
-var dbUrl = 'mongodb://localhost:27017/csv_importer'
+var dbUrl = process.env.MONGODB_URI
 var db
 mongodb.MongoClient.connect(dbUrl, function (err, database) {
   if (err) throw err
