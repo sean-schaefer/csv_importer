@@ -26,6 +26,6 @@ app.use(function(request, response, next) {
 app.use(express.static(__dirname + '/public'))
 app.use('/', routes)
 
-app.listen(5000, function() {
+app.listen(process.env.PORT || 5000, function() {
   console.log("Server running on localhost...")
 })
