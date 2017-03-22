@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSV Uploader</title>
+</head>
+<body>
+<form id="csvImportForm"
+      enctype="multipart/form-data"
+      action="/api/import"
+      method="post">
+    <p>Please choose a CSV file to upload:</p>
+    <input type="file" name="csvFile"/>
+    <input type="submit" value="Import CSV"/>
+</form>
+</body>
+</html>

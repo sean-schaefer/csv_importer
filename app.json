@@ -1,0 +1,6 @@
+{
+  "name": "CSV Importer",
+  "description": "Basic app for importing and sorting album info from CSV",
+  "repository": "https://github.com/sean-schaefer/csv_importer",
+  "keywords": ["node", "express", "static"]
+}
