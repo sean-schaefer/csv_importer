@@ -1,6 +1,6 @@
 # csv_importer
 
-This is a very basic Node.js app for importing Albums from a CSV file and sorting them by Release Year.
+This is a very basic Node.js app for importing Albums from a CSV file and sorting them by Release Date.
 
 You can use the test.csv to test its functionality, or create your own CSV and :pray:.
 

@@ -1,7 +1,7 @@
 {
   "name": "csv-importer",
   "version": "0.0.1",
-  "description": "A CSV file importer for sorting albums by release year",
+  "description": "A CSV file importer for sorting albums by release date",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

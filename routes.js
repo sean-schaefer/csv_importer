@@ -8,7 +8,8 @@ router.post('/api/import', function(request, response) {
   var parseOptions = {
     delimiter: ',',
     columns: true, // attempt to autodiscover columns via CSV header
-    auto_parse: true // convert from string to native types automagically
+    auto_parse: true, // convert from string to native types automagically
+    auto_parse_date: true
   }
 
   var parser = parse(parseOptions, function(err, data) {
@@ -27,7 +28,7 @@ router.get('/api/albums', function(request, response) {
   var albums = request.db.collection('Albums')
   var sortOptions = {
     sort: {
-      'Release Year': 1 // 1 means ascending 'cause we're too cool for bools
+      'Release Date': 1 // 1 means ascending 'cause we're too cool for bools
     }
   }
 
