@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "mongodb": "^2.2.25",
-    "csv-parse": "^1.2.0",
+    "csv-parse": "^4.8.3",
     "express-busboy": "^5.0.0"
   },
   "engines": {
